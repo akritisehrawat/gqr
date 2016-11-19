@@ -1,0 +1,9 @@
+/* CSS declarations go here */
+
+html, body {
+    font-family: "HelveticaNeue-Light";
+}
+
+header {
+    width: 100%;
+}
