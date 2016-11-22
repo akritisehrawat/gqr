@@ -4,9 +4,7 @@ import TemplateContainer from '../containers/support/TemplateContainer';
 class About extends Component {
     render() {
         return (
-            <TemplateContainer 
-
-            />
+            <TemplateContainer lcontent={this.props.lcontent} ccontent={this.props.ccontent} rcontent={this.props.rcontent} />
         )
     }
 }

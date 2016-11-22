@@ -3,7 +3,7 @@ var Template = require('../../components/support/Template');
 
 class TemplateContainer extends Component {
     render() {
-        return <Template />
+        return <Template lcontent={this.props.lcontent} ccontent={this.props.ccontent} rcontent={this.props.rcontent} />
     }
 }
 
