@@ -11,7 +11,7 @@ class Footer extends Component {
                 </div>
                 <div id='footer'>
                     <div id='footertop'>
-                        <div class='f1'>
+                        <div className='f1'>
                             <div id='bankingandfinance'>
                             </div>
                             Trading, Strategy, Research <br/>RQA,Finance,Operations, IT<br/>
@@ -24,7 +24,7 @@ class Footer extends Component {
                             <a href='methodology.php'>Methodology</a><br/>
                             <a href='execution.php'>Execution</a><br/>
                         </div>
-                        <div class='f2'>
+                        <div className='f2'>
                             <div id='newyork'>
                             </div>
                             +1 212 763 8333
@@ -35,19 +35,19 @@ class Footer extends Component {
                             </div>
                             +1 310 807 5030
                         </div>
-                        <div class='f3'>
+                        <div className='f3'>
                             <div id='map'>
-                                <div id='marker1' class='marker'>
+                                <div id='marker1' className='marker'>
                                 </div>
-                                <div id='marker2' class='marker'>
+                                <div id='marker2' className='marker'>
                                 </div>
-                                <div id='marker3' class='marker'>
+                                <div id='marker3' className='marker'>
                                 </div>
-                                <div id='marker4' class='marker'>
+                                <div id='marker4' className='marker'>
                                 </div>
-                                <div id='marker5' class='marker'>
+                                <div id='marker5' className='marker'>
                                 </div>
-                                <div id='marker6' class='marker'>
+                                <div id='marker6' className='marker'>
                                 </div>
                             </div>
                             <div id='followus'>
@@ -69,7 +69,7 @@ class Footer extends Component {
                                 </a>
                             </div>
                         </div>
-                        <div class='f4'>
+                        <div className='f4'>
                             <div id='london'>
                             </div>
                             +44 203 141 8000
@@ -80,7 +80,7 @@ class Footer extends Component {
                             </div>
                             +61 280 754 730
                         </div>
-                        <div class='f5'>
+                        <div className='f5'>
                             <div id='commoditiesandenergy'>
                             </div>
                             Sales, Trading, Research <br/> Oil, Gas, Power, Renewables<br/>
@@ -93,21 +93,21 @@ class Footer extends Component {
 
                         </div>
                         </div>
-                    <div class='footer_divider'></div>
+                    <div className='footer_divider'></div>
                     <div id='footerbottom'>
-                        <div class='f1'>
+                        <div className='f1'>
                             <a href='mailto:careers@gqrgm.com'>Join GQR Global Markets</a>
                         </div>
-                        <div class='f2'>
+                        <div className='f2'>
                             <a href='termsofbusinessus.pdf'>US Terms of Business</a>
                         </div>
-                        <div class='f3'>
+                        <div className='f3'>
                             &copy; 2016 GQR Global Markets
                         </div>
-                        <div class='f4'>
+                        <div className='f4'>
                             <a href='termsofbusinessuk.pdf'>UK Terms of Business</a>
                         </div>
-                        <div class='f5'>
+                        <div className='f5'>
                             <a href='privacypolicy.pdf'>Privacy Policy</a>
                         </div>
                     </div>

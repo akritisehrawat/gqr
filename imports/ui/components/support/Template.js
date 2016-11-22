@@ -29,6 +29,7 @@ class Template extends Component {
     render() {
         return (
         <div>
+            <HeaderContainer />
             <div id='background'>
                 <div id='backgroundCycle'>
                 </div>
@@ -66,11 +67,12 @@ class Template extends Component {
                                         <li>New York</li>
                                     </ul>
                                 </div>
-                                <div  /*style='clear:both'*/></div>
+                                <div className="spacer"></div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <FooterContainer />
             </div>
         )
     }
