@@ -3,11 +3,14 @@ import { Router, Route, browserHistory } from 'react-router';
 import AppContainer from '../containers/AppContainer.js';
 import TemplateContainer from '../containers/support/TemplateContainer.js';
 import AboutContainer from '../containers/AboutContainer.js';
+import HomepageContainer from '../containers/HomepageContainer.js';
+import MethodologyContainer from '../containers/MethodologyContainer.js';
 
 export const renderRoutes = () => (
   <Router history={browserHistory}>
-    <Route path="/" component={AppContainer} />
+    <Route path="/" component={HomepageContainer} />
     <Route path="template" component={TemplateContainer} />
     <Route path="about" component={AboutContainer} />
+    <Route path="methodology" component={MethodologyContainer} />
   </Router>
 );
