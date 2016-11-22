@@ -39,6 +39,12 @@ class Template extends Component {
             <div id='mainimage'>
                 <div id='pageWrapper'>
                     <div id='contentWrapper'>
+                        <div id='promoblock'>
+                            <div id='welcome'>
+                            </div>
+                        </div>
+                        <div id='testimonials'>
+                        </div>
                         <div id='content'>
                             <div id='lcontent'>
                                 <div id='sidebar_about'></div>
