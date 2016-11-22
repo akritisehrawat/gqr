@@ -59,7 +59,7 @@ body {
 	top:100%;
 	left:0px;
 	width:100%;
-	background:url(../images/bg_nav.png);
+	background:url("/images/bg_nav.png");
 	color:white;
 }
 #menu li ul li {
@@ -88,12 +88,12 @@ body {
 	top: 23px;
 	left: 5px;
 	position:absolute;
-	background: url('../images/logo.png') no-repeat;
+	background: url('/images/logo.png') no-repeat;
 }
 #vacancy_portal {
 	width:132px;
 	height:117px;
-	background: url('../images/vacancy_portal.png');
+	background: url('/images/vacancy_portal.png');
 	position:absolute;
 	right:-6px;
 	top:0px;
@@ -103,30 +103,30 @@ body {
 #menu #menu_about {
 	width:80px;
 	height:23px;
-	background:url(../images/menu_about.png);
+	background:url('/images/menu_about.png');
 }
 #menu #menu_markets {
 width:107px;
 	height:23px;
-	background:url(../images/menu_markets.png);
+	background:url('/images/menu_markets.png');
 }
 
 #menu #menu_services {
 	width:113px;
 	height:23px;
-	background:url(../images/menu_service.png);
+	background:url('/images/menu_service.png');
 }
 
 #menu #menu_contact {
 	width:116px;
 	height:23px;
-	background:url(../images/menu_contact.png);
+	background:url('/images/menu_contact.png');
 
 }
 #header_divider {
 	width:1066px;
 	height:1px;
-	background:url(../images/header_divider.png);
+	background:url('/images/header_divider.png');
 	clear:both;
 	margin:0 auto;
 }
@@ -137,24 +137,25 @@ width:107px;
 #welcome {
 	width:653px;
 	height:34px;
-	background:url(../images/headline_welcome.png);
+	background:url('/images/headline_welcome.png');
 	margin: 0 auto;
 }
 
 #promoblock {
 	width:100%;
 	height:65px;
-	background:url(../images/bg_promo.png);
+	background:url('/images/bg_promo.png');
 	padding-top:40px;
 }
 
 #content {
 	background:white;
 	color:#999999;
-	   font-family: "helveticaregular","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "helveticaregular","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 	padding-left:39px;
 	padding-bottom:0px;
+	height: 300px;
 }
 
 #lcontent,#rcontent,#rcontent2 {
@@ -175,7 +176,7 @@ width:107px;
 #marketexpertise {
 
 	height:12px;
-	background:url(../images/headline_marketexpertise.png) no-repeat;
+	background:url('/images/headline_marketexpertise.png') no-repeat;
 	margin-top: 20px;
 	padding-bottom:20px;
 	border-bottom:1px #e5e5e5 solid;
@@ -187,7 +188,7 @@ width:107px;
 }
 
 #expert_commodities, #expert_banking.active, #expert_it.active, #expert_commodities.active, #expert_it,#expert_banking, #life_sciences, #life_sciences.active
-{ display: block; background: url('../images/menu_sidebar.png') no-repeat; }
+{ display: block; background: url('/images/menu_sidebar.png') no-repeat; }
 
 #expert_commodities { background-position: -0px -0px; width: 165px; height: 16px; }
 #expert_banking.active,#expert_banking:hover { background-position: -0px -16px; width: 133px; height: 16px; }
@@ -208,14 +209,14 @@ width:107px;
 #ouroffices {
 	width:122px;
 	height:12px;
-	background:url(../images/headline_ouroffices.png);
+	background:url('/images/headline_ouroffices.png');
 	margin-bottom:20px;
 	margin-top:20px;
 }
 #practiceareas {
 	width:158px;
 	height:12px;
-	background:url(../images/headline_practiceareas.png);
+	background:url('/images/headline_practiceareas.png');
 	margin-bottom:20px;
 	margin-top:20px;
 }
@@ -223,7 +224,7 @@ width:107px;
 #gqr {
 	width:198px;
 	height:16px;
-	background:url(../images/headline_gqr.png);
+	background:url('/images/headline_gqr.png');
 	margin:0 auto;
 	margin-bottom:20px;
 	margin-top:16px;
@@ -267,6 +268,10 @@ width:107px;
 	height:100%;
 }
 #backgroundCycle {
+	/*background: url("/images/backgrounds/_about/1.jpg");*/
+	background-size: cover;
+	min-height:799px;
+
 	height:862px;
 	width:1920px;
 	position:relative;
@@ -287,19 +292,19 @@ width:107px;
 	position: absolute;
 	height:319px;
 	width:100%;
-	background:url(../images/bg_topgradient.png) repeat-x;
+	background:url('/images/bg_topgradient.png') repeat-x;
 }
 #bottombg {
 	height:62px;
 	width:100%;
 	position:absolute;
 	top:-62px;
-	background:url(../images/bg_bottomgradient.png) repeat-x;
+	background:url('/images/bg_bottomgradient.png') repeat-x;
 	z-index:1;
 }
 #offices li {
 	font-size:14px;
-	background:url('../images/li.png') 0px 9px no-repeat;
+	background:url('/images/li.png') 0px 9px no-repeat;
 	padding-left:15px;
 	padding-top:7px;
 	padding-bottom:7px;
@@ -307,7 +312,7 @@ width:107px;
 }
 
 #maincontent li {
-	background:url('../images/li.png') 0px 12px no-repeat;
+	background:url('/images/li.png') 0px 12px no-repeat;
 	padding-left:15px;
 	margin-left:30px;
 	padding-top:7px;
@@ -333,7 +338,7 @@ width:107px;
 	top:150px;
 	width:100%;
 	height:300px;
-	background: #666 url(../images/bg_footer.png) bottom repeat-x;
+	background: #666 url('/images/bg_footer.png') bottom repeat-x;
 
 }
 .footer_divider {
@@ -402,7 +407,7 @@ width:107px;
 #footer #map {
 	width:348px;
 	height:200px;
-	background:url(../images/map.png);
+	background:url('/images/map.png');
 	position:relative;
 	left:-102px;
 	top:2px;
@@ -410,7 +415,7 @@ width:107px;
 .marker {
 	width:12px;
 	height:20px;
-	background:url(../images/map_marker.png);
+	background:url('/images/map_marker.png');
 	position:absolute;
 }
 #marker1 {
@@ -443,21 +448,21 @@ width:107px;
 #bankingandfinance {
 	width:118px;
 	height:10px;
-	background: url('../images/footer_bankingandfinance.png');
+	background: url('/images/footer_bankingandfinance.png');
 	margin-top:21px;
 	margin-bottom: 5px;
 }
 #commoditiesandenergy {
 	width:144px;
 	height:10px;
-	background:url(../images/footer_commoditiesandenergy.png);
+	background:url('/images/footer_commoditiesandenergy.png');
 	margin-top:15px;
 	margin-bottom: 5px;
 }
 #informationtechnology {
 	width:164px;
 	height:10px;
-	background:url(../images/footer_informationtechnology.png);
+	background:url('/images/footer_informationtechnology.png');
 	margin-top:15px;
 	margin-bottom: 5px;
 }
@@ -466,14 +471,14 @@ width:107px;
 	width:94px;
 	height:10px;
 	margin-top:15px;
-	background:url(../images/footer_clientservices.png);
+	background:url('/images/footer_clientservices.png');
 	margin-bottom: 5px;
 }
 #aboutus {
 	margin-top:14px;
 	width:55px;
 	height:10px;
-	background:url(../images/footer_aboutus.png);
+	background:url('/images/footer_aboutus.png');
 	margin-bottom: 5px;
 }
 
@@ -481,55 +486,55 @@ width:107px;
 	margin-top:14px;
 	width:79px;
 	height:10px;
-	background:url(../images/footer_life_sciences.png);
+	background:url('/images/footer_life_sciences.png');
 	margin-bottom: 5px;
 }
 #newyork {
 	width:60px;
 	height:10px;
 	margin-top:20px;
-	background:url(../images/footer_newyork.png);
+	background:url('/images/footer_newyork.png');
 	margin-bottom: 5px;
 }
 #houston {
 	width:54px;
 	height:10px;
 	margin-top:50px;
-	background:url(../images/footer_houston.png);
+	background:url('/images/footer_houston.png');
 	margin-bottom: 5px;
 }
 #losangeles {
 	width:75px;
 	height:10px;
 	margin-top:50px;
-	background:url(../images/footer_losangeles.png);
+	background:url('/images/footer_losangeles.png');
 	margin-bottom: 5px;
 }
 #london {
 	width:51px;
 	height:10px;
 	margin-top:20px;
-	background:url(../images/footer_london.png);
+	background:url('/images/footer_london.png');
 	margin-bottom: 5px;
 }
 #hongkong {
 	width:75px;
 	height:10px;
 	margin-top:50px;
-	background:url(../images/footer_hongkong.png);
+	background:url('/images/footer_hongkong.png');
 	margin-bottom: 5px;
 }
 #sydney {
 	margin-top:50px;
 	width:44px;
 	height:10px;
-	background:url(../images/footer_sydney.png);
+	background:url('/images/footer_sydney.png');
 	margin-bottom: 5px;
 }
 #followus {
 	min-width:69px;
 	height:10px;
-	background:url(../images/footer_followus.png) no-repeat;
+	background:url('/images/footer_followus.png') no-repeat;
 	padding-left:70px;
 	margin-top:12px;
 	margin-left:10px;
@@ -537,7 +542,7 @@ width:107px;
 }
 	#followus #facebook {
 
-		background: url('../images/icons.png') no-repeat;
+		background: url('/images/icons.png') no-repeat;
 		background-position: -0px -46px; width: 7px; height: 13px;
 		float:left;
 		position:relative;
@@ -549,7 +554,7 @@ width:107px;
 	}
 	#followus #twitter {
 
-		background: url('../images/icons.png') no-repeat;
+		background: url('/images/icons.png') no-repeat;
 		background-position: -0px -111px; width: 16px; height: 12px;
 		float:left;
 		position:relative;
@@ -561,7 +566,7 @@ width:107px;
 	}
 	#followus #linkedin {
 
-		background: url('../images/icons.png') no-repeat;
+		background: url('/images/icons.png') no-repeat;
 		background-position: -0px -59px; width: 13px; height: 13px;
 		float:left;
 		position:relative;
@@ -573,7 +578,7 @@ width:107px;
 	}
 	#followus #youtube {
 
-		background: url('../images/icons.png') no-repeat;
+		background: url('/images/icons.png') no-repeat;
 		background-position: -0px -32px; width: 15px; height: 14px;
 		float:left;
 		position:relative;
@@ -588,7 +593,7 @@ width:107px;
 /*CONTACT page*/
 #mapWrapper {
 	width:100%;
-	background:url(../images/bg_contact.png);
+	background:url('/images/bg_contact.png');
 	padding-top:44px;
 	padding-bottom:42px;
 	margin-bottom:15px;
@@ -601,7 +606,7 @@ width:107px;
 #contact_map {
 	width:571px;
 	height:328px;
-	background:url(../images/contact_map.png);
+	background:url('/images/contact_map.png');
 	margin:0 auto;
 	position:relative;
 	left: 2px;
@@ -620,7 +625,7 @@ top: -2px;
 	position:absolute;
 	left: -210px;
 	top: 45px;
-	background: url(../images/line_ny.png) no-repeat;
+	background: url('/images/line_ny.png') no-repeat;
 }
 
 #map_boston {
@@ -629,7 +634,7 @@ top: -2px;
 	position:absolute;
 	left: -210px;
 	top: 102px;
-	background: url(../images/line_boston.png) no-repeat;
+	background: url('/images/line_boston.png') no-repeat;
 }
 #map_sf {
 	padding-top: 41px;
@@ -638,7 +643,7 @@ top: -2px;
 	position:absolute;
 	left: -210px;
 	top: 116px;
-	background: url(../images/line_sf.png) no-repeat;
+	background: url('/images/line_sf.png') no-repeat;
 }
 #map_la {
 	padding-top: 75px;
@@ -647,7 +652,7 @@ top: -2px;
 	position:absolute;
 	left: -210px;
 	top: 137px;
-	background: url(../images/line_la.png) no-repeat;
+	background: url('/images/line_la.png') no-repeat;
 	z-index:1;
 }
 #map_hst {
@@ -657,7 +662,7 @@ top: -2px;
 	position:absolute;
 	left: -210px;
 	top: 140px;
-	background: url(../images/line_hst.png) no-repeat;
+	background: url('/images/line_hst.png') no-repeat;
 }
 #map_lon {
 	width:462px;
@@ -666,7 +671,7 @@ top: -2px;
 	left: 262px;
 	top: 43px;
 	text-align:right;
-	background: url(../images/line_lon.png) no-repeat;
+	background: url('/images/line_lon.png') no-repeat;
 }
 #map_ch {
 	width:630px;
@@ -675,7 +680,7 @@ top: -2px;
 	left: 100px;
 	top: 110px;
 	text-align:right;
-	background: url(../images/line_ch.png) no-repeat;
+	background: url('/images/line_ch.png') no-repeat;
 }
 #map_hnk {
 	width:294px;
@@ -683,7 +688,7 @@ top: -2px;
 	position:absolute;
 	left: 451px;
 	top: 155px;
-	background: url(../images/line_hnk.png) no-repeat;
+	background: url('/images/line_hnk.png') no-repeat;
 }
 #map_syd {
 	width:215px;
@@ -691,7 +696,7 @@ top: -2px;
 	position:absolute;
 	left: 501px;
 top: 265px;
-	background: url(../images/line_syd.png) no-repeat;
+	background: url('/images/line_syd.png') no-repeat;
 }
 
 
@@ -703,24 +708,24 @@ top: 265px;
 .city.ny {
 	width:75px;
 	height:12px;
-	background: url(../images/map_ny.png) no-repeat;
+	background: url('/images/map_ny.png') no-repeat;
 }
 
 .city.boston {
 	width:75px;
 	height:12px;
-	background: url(../images/map_boston.png) no-repeat;
+	background: url('/images/map_boston.png') no-repeat;
 }
 .city.sf {
 	width:114px;
 	height:12px;
-	background: url(../images/map_sf.png) no-repeat;
+	background: url('/images/map_sf.png') no-repeat;
 }
 
 .city.hnk {
 	width:85px;
 	height:12px;
-	background: url(../images/map_hnk.png) no-repeat;
+	background: url('/images/map_hnk.png') no-repeat;
 	top: 4px;
 	right: 59px;
 	position: absolute;
@@ -730,13 +735,13 @@ top: 265px;
 .city.hst {
 	width:68px;
 	height:12px;
-	background: url(../images/map_hst.png) no-repeat;
+	background: url('/images/map_hst.png') no-repeat;
 }
 .city.lon {
 	padding-top: 30px;
 	width: 58px;
 	height: 12px;
-	background: url(../images/map_lon.png) no-repeat;
+	background: url('/images/map_lon.png') no-repeat;
 	top: -1px;
 	right: 65px;
 	position: absolute;
@@ -746,7 +751,7 @@ top: 265px;
 	margin-top:3px;
 	width: 65px;
 	height: 12px;
-	background: url(../images/map_ch.png) no-repeat;
+	background: url('/images/map_ch.png') no-repeat;
 	top: -1px;
 	right: 65px;
 	position: absolute;
@@ -754,12 +759,12 @@ top: 265px;
 .city.la {
 	width:96px;
 	height:12px;
-	background: url(../images/map_la.png) no-repeat;
+	background: url('/images/map_la.png') no-repeat;
 }
 .city.syd {
 	width:56px;
 	height:12px;
-	background: url(../images/map_syd.png) no-repeat;
+	background: url('/images/map_syd.png') no-repeat;
 	top: 5px;
 	right: 60px;
 	position: absolute;
@@ -778,7 +783,7 @@ Testimonials
 	padding-top: 31px;
 	padding-left: 5px;
 	margin-bottom: 15px;
-	background: url(../images/bg_testimonials.png);
+	background: url('/images/bg_testimonials.png');
 	margin-top: 0px;
 }
 #testimonials ul li{
@@ -794,7 +799,7 @@ Testimonials
 .testimonials-citi, .testimonials-whowhatwear, .testimonials-numerix, .testimonials-wynden, .testimonials-cqf,
 .testimonials-fidelity, .testimonials-cityintern, .testimonials-rbs, .testimonials-linkedin, .testimonials-aqr,
 .testimonials-svb, .testimonials-commerzbank, .testimonials-citizensbank, .testimonials-societegenerale, .testimonials-kathrein
-{ display: block; background: url('../images/testimonials.png') no-repeat;margin: 0 auto;}
+{ display: block; background: url('/images/testimonials.png') no-repeat;margin: 0 auto;}
 
 .testimonials-bp { background-position: -10px -0px; width: 69px; height: 91px; position:relative; margin-top: -49px;
 margin-left: 63px;top:50%; }
@@ -845,7 +850,7 @@ margin-top: -25px;
 margin-left: 38px; top:50%; }
 /*Directions*/
 .directions-houston, .directions-sydney, .directions-hongkong, .directions-losangeles, .directions-london, .directions-newyork, .directions-boston
-{ display: block; background: url('../images/directions.png') no-repeat;margin-bottom:5px; }
+{ display: block; background: url('/images/directions.png') no-repeat;margin-bottom:5px; }
 .directions-houston { background-position: -0px -0px; width: 68px; height: 12px; }
 .directions-sydney { background-position: -0px -12px; width: 56px; height: 12px; }
 .directions-hongkong { background-position: -0px -24px; width: 85px; height: 12px; }
@@ -872,7 +877,7 @@ margin-left: 38px; top:50%; }
 
 /*Directors*/
 .contact-church, .contact-talbot, .contact-leg, .contact-sugden
-{ display: block; background: url('../images/directors.png') no-repeat; }
+{ display: block; background: url('/images/directors.png') no-repeat; }
 .contact-church { background-position: -0px -12px; width: 125px; height: 12px; }
 .contact-talbot { background-position: -0px -0px; width: 134px; height: 12px; }
 .contact-leg { background-position: -0px -24px; width: 118px; height: 12px; }
@@ -880,7 +885,7 @@ margin-left: 38px; top:50%; }
 
 #directors {
 	height:12px;
-	background:url(../images/headline_directors.png) no-repeat;
+	background:url('/images/headline_directors.png') no-repeat;
 }
 #directorsul li a {
 	color:#999;
@@ -917,13 +922,13 @@ margin-left: 38px; top:50%; }
 }
 
 #directorsul .linkedin {
-	background:url(../images/icons.png) no-repeat;
+	background:url('/images/icons.png') no-repeat;
 	background-position: -0px -145px;  height: 10px;
 	padding-left:28px;
 	margin-top:9px;
 }
 #directorsul .phone {
-	background:url(../images/contact_phone.png) 0px 2px no-repeat;
+	background:url('/images/contact_phone.png') 0px 2px no-repeat;
 	padding-left:28px;
 	margin-top:10px;
 	margin-bottom:3px;
@@ -932,7 +937,7 @@ margin-left: 38px; top:50%; }
 #contactus {
 	width:106px;
 	height:16px;
-	background:url(../images/headline_contactus.png) no-repeat;
+	background:url('/images/headline_contactus.png') no-repeat;
 	margin-bottom: 20px;
 	margin-top: 16px;
 	margin:25px auto 17px;
@@ -941,15 +946,15 @@ margin-left: 38px; top:50%; }
 }
 
 #directions {
-	background:url(../images/headline_directions.png) no-repeat;
+	background:url('/images/headline_directions.png') no-repeat;
 	height:12px;
 }
 #directions2 {
-	background:url(../images/headline_directions.png) no-repeat;
+	background:url('/images/headline_directions.png') no-repeat;
 	height:12px;
 }
 #clienttestimonials {
-	background:url(../images/headline_clienttestimonials.png) no-repeat;
+	background:url('/images/headline_clienttestimonials.png') no-repeat;
 	height: 16px;
 	width: 176px;
 	border: none;
@@ -995,7 +1000,7 @@ margin-left: 38px; top:50%; }
 	width:340px;
 	border-radius:5px;
 	border:1px #cdcdcd solid;
-	background:#fff url('../images/selectarrow.png') 330px 12px no-repeat;
+	background:#fff url('/images/selectarrow.png') 330px 12px no-repeat;
 	padding-top:6px;
 }
 .field .customSelectInner {
@@ -1024,7 +1029,7 @@ margin-left: 38px; top:50%; }
 	height:30px;
 	color:#525252;
 	font-size:13px;
-	background:url(../images/button_bg.png) repeat-x;
+	background:url('/images/button_bg.png') repeat-x;
 	cursor:pointer;
 }
 #nature {
@@ -1040,7 +1045,7 @@ margin-left: 38px; top:50%; }
 	top:0px;
 	left:50%;
 	margin-left:-604px;
-	background: url(../images/paddingcheck.png) no-repeat;
+	background: url('/images/paddingcheck.png') no-repeat;
 	z-index:9999;
 	opacity:0.5;
 }
@@ -1055,7 +1060,7 @@ margin-left: 38px; top:50%; }
 
 /*new content*/
 #methodology {
-	background:url(../images/headline_methodology.png);
+	background:url('/images/headline_methodology.png');
 	width: 130px;
 	height: 20px;
 	margin: 0 auto;
@@ -1063,7 +1068,7 @@ margin-left: 38px; top:50%; }
 	margin-top: 17px;
 }
 #execution {
-	background:url(../images/headline_execution.png);
+	background:url('/images/headline_execution.png');
 	width: 93px;
 	height: 16px;
 	margin: 0 auto;
@@ -1071,7 +1076,7 @@ margin-left: 38px; top:50%; }
 	margin-top: 16px;
 }
 #headline_about {
-	background:url(../images/headline_aboutgqr.png);
+	background:url('/images/headline_aboutgqr.png');
 	width: 112px;
 	height: 16px;
 	margin: 0 auto;
@@ -1080,7 +1085,7 @@ margin-left: 38px; top:50%; }
 }
 
 #headline_leadership {
-	background:url(../images/headline_leadership.png) no-repeat center top;
+	background:url('/images/headline_leadership.png') no-repeat center top;
 	width: 112px;
 	height: 18px;
 	margin: 0 auto;
@@ -1090,7 +1095,7 @@ margin-left: 38px; top:50%; }
 
 #sidebar_allvacancies {
 	height: 12px;
-	background: url(../images/sidebar_allvacancies.png) no-repeat;
+	background: url('/images/sidebar_allvacancies.png') no-repeat;
 	margin-top: 20px;
 	padding-bottom: 20px;
 	border-bottom: 1px #E5E5E5 solid;
@@ -1098,7 +1103,7 @@ margin-left: 38px; top:50%; }
 }
 #sidebar_filtervacancies {
 	height: 12px;
-	background: url(../images/sidebar_filtervacancies.png) no-repeat;
+	background: url('/images/sidebar_filtervacancies.png') no-repeat;
 	margin-top: 20px;
 	padding-bottom: 20px;
 	border-bottom: 1px #E5E5E5 solid;
@@ -1116,7 +1121,7 @@ margin-left: 38px; top:50%; }
 
 #sidebar_about {
 	height: 12px;
-	background: url(../images/sidebar_about.png) no-repeat;
+	background: url('/images/sidebar_about.png') no-repeat;
 	margin-top: 20px;
 	padding-bottom: 20px;
 	border-bottom: 1px #E5E5E5 solid;
@@ -1127,7 +1132,7 @@ margin-left: 38px; top:50%; }
 	border-bottom: 1px #E5E5E5 solid;
 }
 #about_methodology.active, #about_methodology, #about_execution.active, #about_execution, #about_about.active, #about_about, #about_leadership, #about_leadership.active
-{ display: block; background: url('../images/sidebarmenu_about.png') no-repeat; }
+{ display: block; background: url('/images/sidebarmenu_about.png') no-repeat; }
 
 #about_methodology.active, #about_methodology:hover { background-position: -0px -0px; width: 98px; height: 15px; }
 #about_methodology { background-position: -0px -15px; width: 98px; height: 15px; }
@@ -1141,7 +1146,7 @@ margin-left: 38px; top:50%; }
 
 /*new content*/
 #headline_executive {
-	background:url(../images/headline_executive.png);
+	background:url('/images/headline_executive.png');
 	width: 166px;
 	height: 16px;
 	margin: 0 auto;
@@ -1149,7 +1154,7 @@ margin-left: 38px; top:50%; }
 	margin-top: 19px;
 }
 #headline_contingent {
-	background:url(../images/headline_contingent.png);
+	background:url('/images/headline_contingent.png');
 	width: 182px;
 	height: 20px;
 	margin: 0 auto;
@@ -1157,7 +1162,7 @@ margin-left: 38px; top:50%; }
 	margin-top: 17px;
 }
 #headline_campaign {
-	background:url(../images/headline_campaign.png);
+	background:url('/images/headline_campaign.png');
 	width: 188px;
 	height: 20px;
 	margin: 0 auto;
@@ -1166,7 +1171,7 @@ margin-left: 38px; top:50%; }
 }
 
 #headline_banking {
-	background:url(../images/headline_banking.png);
+	background:url('/images/headline_banking.png');
 	width: 179px;
 	height: 20px;
 	margin: 0 auto;
@@ -1174,7 +1179,7 @@ margin-left: 38px; top:50%; }
 	margin-top: 17px;
 }
 #headline_commodities {
-	background:url(../images/headline_commodities.png);
+	background:url('/images/headline_commodities.png');
 	width: 222px;
 	height: 20px;
 	margin: 0 auto;
@@ -1182,7 +1187,7 @@ margin-left: 38px; top:50%; }
 	margin-top: 17px;
 }
 #headline_technology {
-	background:url(../images/headline_technology.png);
+	background:url('/images/headline_technology.png');
 	width: 113px;
 	height: 20px;
 	margin: 0 auto;
@@ -1191,7 +1196,7 @@ margin-left: 38px; top:50%; }
 }
 
 #headline_life_sciences {
-	background:url(../images/headline_life_sciences.png) no-repeat center top;
+	background:url('/images/headline_life_sciences.png') no-repeat center top;
 	width: 128px;
 	height: 20px;
 	margin: 0 auto;
@@ -1200,7 +1205,7 @@ margin-left: 38px; top:50%; }
 }
 #services {
 height: 12px;
-background: url(../images/services.png) no-repeat;
+background: url('/images/services.png') no-repeat;
 margin-top: 20px;
 padding-bottom: 20px;
 border-bottom: 1px #E5E5E5 solid;
@@ -1214,7 +1219,7 @@ border-bottom: 1px #E5E5E5 solid;
 }
 
 #services_campaign, #services_contingent, #services_executive
-{ display: block; background: url('../images/services_menu.png') no-repeat; }
+{ display: block; background: url('/images/services_menu.png') no-repeat; }
 
 #services_campaign.active, #services_campaign:hover { background-position: -0px -0px; width: 139px; height: 15px; }
 #services_contingent.active, #services_contingent:hover { background-position: -0px -15px; width: 135px; height: 15px; }
@@ -1236,7 +1241,7 @@ border-bottom: 1px #E5E5E5 solid;
 
 #directionsul .directions-map {
 	min-height:16px;
-	background: url('../images/icons.png') no-repeat;
+	background: url('/images/icons.png') no-repeat;
 	 background-position: -0px -0px; height: 16px;
 	padding-left: 20px;
 	margin-top: 1px;
@@ -1245,7 +1250,7 @@ border-bottom: 1px #E5E5E5 solid;
 }
 #directionsul2 .directions-map {
 	min-height:16px;
-	background: url('../images/icons.png') no-repeat;
+	background: url('/images/icons.png') no-repeat;
 	 background-position: -0px -0px; height: 16px;
 	padding-left: 20px;
 	margin-top: 1px;
@@ -1274,7 +1279,7 @@ border-bottom: 1px #E5E5E5 solid;
 
 #login_headline {
 height: 12px;
-background: url(../images/sidebar_loginregister.png) no-repeat 2px 0px;
+background: url('/images/sidebar_loginregister.png') no-repeat 2px 0px;
 padding-bottom: 15px;
 border-bottom: 1px #D9D9D9 solid;
 margin-bottom: 15px;
@@ -1329,7 +1334,7 @@ div.hr {
 }
 
 #headline_advancedsearch {
-	background:url(../images/headline_advancedsearch.png);
+	background:url('/images/headline_advancedsearch.png');
 	width: 179px;
 	height: 16px;
 	margin: 0 auto;
@@ -1422,7 +1427,7 @@ div.hr {
 
 
 #headline_jobdescription {
-	background:url(../images/headline_jobdescription.png);
+	background:url('/images/headline_jobdescription.png');
 	width: 151px;
 	height: 19px;
 	margin: 0 auto;
@@ -1472,7 +1477,7 @@ div.hr {
 }
 .apply_linkedin {
 	cursor:pointer;
-	background:url(../images/apply_linkedin.png);
+	background:url('/images/apply_linkedin.png');
 	width:165px;
 	height:28px;
 }
@@ -1488,13 +1493,13 @@ div.hr {
 	cursor:pointer;
 }
 .btn.linkedin {
-	background:url(../images/btn_linkedin.png);
+	background:url('/images/btn_linkedin.png');
 }
 .btn.twitter {
-	background:url(../images/btn_twitter.png);
+	background:url('/images/btn_twitter.png');
 }
 .btn.mail {
-	background:url(../images/btn_mail.png);
+	background:url('/images/btn_mail.png');
 }
 
 .jobdescription {
@@ -1502,7 +1507,7 @@ div.hr {
 }
 
 #headline_currentvacancies {
-	background:url(../images/headline_currentvacancies.png);
+	background:url('/images/headline_currentvacancies.png');
 	width: 182px;
 	height: 16px;
 	margin: 0 auto;
@@ -1547,7 +1552,7 @@ div.hr {
 
 
 #headline_register {
-	background:url(../images/headline_register.png);
+	background:url('/images/headline_register.png');
 	width: 159px;
 	height: 20px;
 	margin: 0 auto;
@@ -1617,14 +1622,14 @@ label.checkbox.highlight {
 }
 .salary_picker.noUi-horizontal {
 	height:11px;
-	background: url(../images/slider_bg.png) repeat-x;
+	background: url('/images/slider_bg.png') repeat-x;
 }
 
 .noUi-background {
-	background: url(../images/slider_bg.png) repeat-x;
+	background: url('/images/slider_bg.png') repeat-x;
 }
 .noUi-horizontal .noUi-handle  {
-      background:url(../images/slider_handles.png);
+      background:url('/images/slider_handles.png');
 	  background-position: 0px 0px;
 	  width:22px !important;
 	  height:22px !important;
@@ -1643,7 +1648,7 @@ label.checkbox.highlight {
 	height:26px;
 	font-weight:bolder;
 	text-align: center;
-	background:url('../images/tooltip.png');
+	background:url('/images/tooltip.png');
 	font-size:12px;
 	color:#666666;
 	padding-right: 2px;
