@@ -3,7 +3,7 @@ var React = require('react');
 var PropTypes = React.PropTypes;
 
 /* Component includes */
-var App = require('../ui/components/App.jsx');
+var App = require('../components/App');
 
 var AppContainer = React.createClass({
     render: function() {
