@@ -1,7 +1,7 @@
 import React, {Component, PropTypes} from 'react';
 var Execution = require('../components/Execution');
 
-var lcontent = "<div id='sidebar_about'></div><ul id='aboutul'><li><a href='about.php'><div className='active' id='about_about'></div></a></li><li><a href='methodology.php'><div  id='about_methodology'></div></a></li><li><a href='execution.php'><div id='about_execution'></div></a></li></ul>";
+var lcontent = "<div id='sidebar_about'></div><ul id='aboutul'><li><a href='/about'><div className='active' id='about_about'></div></a></li><li><a href='/methodology'><div  id='about_methodology'></div></a></li><li><a href='/execution'><div id='about_execution'></div></a></li></ul>";
 var ccontent = " <div id='execution'></div> <div id='maincontent'> <p> Our connections, friendships, unique partnerships and joint-ventures stand in testament to our reputation, history and permanence. </p> <p> Ultimately it is our proven track-record that speaks volumes of who we truly are. To get in touch with an extensively networked, well informed and accountable professional partner please <a href='contact.php'>contact</a> us. </p> </div>";
 var rcontent = "<div id='ouroffices'></div><ul id='offices'><li>London</li><li>Hong Kong</li><li>Sydney</li><li>Los Angeles</li><li>Houston</li><li>New York</li></ul>";
 

@@ -24,7 +24,7 @@ class Header extends Component {
                                 <a href='/banking'><li><img src='/images/topmenu_banking.png' /></li></a>
                                 <a href='/commodities'><li><img src='/images/topmenu_commodities.png' /></li></a>
                                 <a href='/it'><li><img src='/images/topmenu_it.png' /></li></a>
-                                <a href='/life_sciences'><li><img src='/images/topmenu_life_sciences.png' /></li></a>
+                                <a href='/lifesciences'><li><img src='/images/topmenu_life_sciences.png' /></li></a>
                             </ul>
 
                         </li>
