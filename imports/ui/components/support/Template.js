@@ -43,7 +43,7 @@ class Template extends Component {
                             <div id='welcome'>
                             </div>
                         </div>
-                        <div id='testimonials'>
+                        <div id='testimonials' dangerouslySetInnerHTML={{__html: this.props.testimonials}}>
                         </div>
                         <div id='content'>
                             <div id='lcontent' dangerouslySetInnerHTML={{__html: this.props.lcontent}}>
