@@ -20,9 +20,9 @@ class Footer extends Component {
                             Software Engineering<br/> Infrastructure, Data & IT<br/>
                             <div id='aboutus'>
                             </div>
-                            <a href='about.php'>Who We Are</a><br/>
-                            <a href='methodology.php'>Methodology</a><br/>
-                            <a href='execution.php'>Execution</a><br/>
+                            <a href='/about'>Who We Are</a><br/>
+                            <a href='/methodology'>Methodology</a><br/>
+                            <a href='/execution'>Execution</a><br/>
                         </div>
                         <div className='f2'>
                             <div id='newyork'>
@@ -87,9 +87,9 @@ class Footer extends Component {
                             <div id='life_sciences_footer'></div>
                             R&D, Manufacturing, Technology, Biostats, Informatics
                             <div id='clientservices'></div>
-                            <a href='executive.php'>Executive Search</a><br/>
-                            <a href='contingent.php'>Contingent Search</a><br/>
-                            <a href='campaign.php'>Campaign Services</a><br/>
+                            <a href='/executive'>Executive Search</a><br/>
+                            <a href='/contingent'>Contingent Search</a><br/>
+                            <a href='/campaign'>Campaign Services</a><br/>
 
                         </div>
                         </div>

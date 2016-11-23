@@ -8,31 +8,31 @@ class Header extends Component {
         return (
             <div id='headerWrapper'>
                 <div id='header'>
-                    <a href='index.php'><div id='logo'>
+                    <a href='/'><div id='logo'>
                     </div></a>
                     <ul id='menu'>
-                        <li onClick='window.location="about.php"'><a href='about.php'><div id='menu_about'></div></a>
+                        <li onClick='/about"'><a href='/about'><div id='menu_about'></div></a>
                             <ul>
-                                <a href='about.php'><li><img src='images/topmenu_aboutus.png' /></li></a>
-                                <a href='methodology.php'><li><img src='images/topmenu_methodology.png' /></li></a>
-                                <a href='execution.php'><li><img src='images/topmenu_execution.png' /></li></a>
+                                <a href='/about'><li><img src='/images/topmenu_aboutus.png' /></li></a>
+                                <a href='/methodology'><li><img src='/images/topmenu_methodology.png' /></li></a>
+                                <a href='/execution'><li><img src='/images/topmenu_execution.png' /></li></a>
                             </ul>
                         </li>
-                        <li onClick='window.location="banking.php";return false;'>
-                            <a href='banking.php'><div id='menu_markets'></div></a>
+                        <li onClick='/banking'>
+                            <a href='/banking'><div id='menu_markets'></div></a>
                             <ul>
-                                <a href='banking.php'><li><img src='images/topmenu_banking.png' /></li></a>
-                                <a href='commodities.php'><li><img src='images/topmenu_commodities.png' /></li></a>
-                                <a href='it.php'><li><img src='images/topmenu_it.png' /></li></a>
-                                <a href='life_sciences.php'><li><img src='images/topmenu_life_sciences.png' /></li></a>
+                                <a href='/banking'><li><img src='/images/topmenu_banking.png' /></li></a>
+                                <a href='/commodities'><li><img src='/images/topmenu_commodities.png' /></li></a>
+                                <a href='/it'><li><img src='/images/topmenu_it.png' /></li></a>
+                                <a href='/life_sciences'><li><img src='/images/topmenu_life_sciences.png' /></li></a>
                             </ul>
 
                         </li>
-                        <li onClick='window.location="executive.php"'><a href='executive.php'><div id='menu_services'></div></a>
+                        <li onClick='/executive"'><a href='/executive'><div id='menu_services'></div></a>
                         <ul>
-                                <a href='executive.php'><li><img src='images/topmenu_executive.png' /></li></a>
-                                <a href='contingent.php'><li><img src='images/topmenu_contingent.png' /></li></a>
-                                <a href='campaign.php'><li><img src='images/topmenu_campaign.png' /></li></a>
+                                <a href='/executive'><li><img src='/images/topmenu_executive.png' /></li></a>
+                                <a href='/contingent'><li><img src='/images/topmenu_contingent.png' /></li></a>
+                                <a href='/campaign'><li><img src='/images/topmenu_campaign.png' /></li></a>
 
                             </ul>
                         </li>
